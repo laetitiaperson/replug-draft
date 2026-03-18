@@ -4,14 +4,14 @@
 
 /* --- CSS Custom Properties --- */
 :root {
-  /* Brand Colors */
+  /* Brand Colors — Charte v2.0 */
   --rp-green: #8dc63f;
   --rp-green-hover: #7ab332;
   --rp-green-muted: #448c46;
 
-  /* Neutral Palette */
+  /* Neutral Palette — Charte v2.0 */
   --rp-white: #ffffff;
-  --rp-offwhite: #f5f5f5;
+  --rp-offwhite: #f5f4ef;
   --rp-gray-light: #cacccc;
   --rp-gray: #737373;
   --rp-gray-medium: #7a878e;
@@ -21,8 +21,17 @@
   --rp-dark: #0d1b2a;
   --rp-black: #111111;
 
-  /* Typography */
-  --rp-font-heading: 'DM Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  /* Nuances & Accents — Charte v2.0 */
+  --rp-azur-moyen: #678589;
+  --rp-cyan-grise: #8cb2b3;
+  --rp-marron-grise: #4d4533;
+  --rp-creme: #f5f4ef;
+  --rp-violine-pale: #e8dde6;
+  --rp-violine-rose: #d4c0cf;
+  --rp-gray-xlight: #eaeaea;
+
+  /* Typography — Charte v2.0 */
+  --rp-font-heading: 'Space Grotesk', 'DM Sans', 'Helvetica Neue', Helvetica, sans-serif;
   --rp-font-body: 'DM Sans', 'Helvetica Neue', Helvetica, sans-serif;
 
   /* Spacing */
