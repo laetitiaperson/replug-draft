@@ -1475,21 +1475,25 @@ h1, h2, h3, h4, h5, h6 {
 .rp-locator__card-contact {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 6px;
   margin-top: 12px;
-  padding: 12px 14px;
-  background: var(--rp-offwhite);
-  border-radius: 8px;
+  padding-top: 12px;
+  border-top: 1px solid var(--rp-gray-light);
 }
 
 .rp-locator__card-contact-link {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 8px;
   font-size: .875rem;
   font-weight: 500;
   color: var(--rp-dark);
   text-decoration: none;
+}
+
+.rp-locator__card-contact-link svg {
+  color: var(--rp-green);
+  flex-shrink: 0;
 }
 
 .rp-locator__card-contact-link:hover {
